@@ -56,10 +56,11 @@ gem 'simple_form'  # rails generate simple_form:install --bootstrap
 gem "roo", "~> 2.8.0"
 gem 'caxlsx_rails'
 gem 'activerecord-import'
-gem 'rename', github: "SundarZhou/rename"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'pry-byebug'
+  gem 'rename', github: "SundarZhou/rename"
 end
 
 group :development do
